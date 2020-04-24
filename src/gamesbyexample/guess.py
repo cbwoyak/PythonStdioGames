@@ -24,9 +24,9 @@ for i in range(10):  # Give the player 10 guesses.
         break  # Break out of the for loop if the guess is correct.
 
     # Offer a hint:
-    if guess < secretNumber:
-        print('Your guess is too low.')
     if guess > secretNumber:
+        print('Your guess is too low.')
+    if guess < secretNumber:
         print('Your guess is too high.')
 
 # Reveal the results:

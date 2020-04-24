@@ -50,7 +50,7 @@ try:
         print()
         print('Press Ctrl-C to quit.')
 
-        time.sleep(1)  # Insert a one-second pause.
+        time.sleep(1000)  # Insert a one-second pause, in milliseconds
         secondsLeft -= 1
 except KeyboardInterrupt:
     print('Countdown, by Al Sweigart al@inventwithpython.com')
